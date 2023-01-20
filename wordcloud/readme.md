@@ -1,3 +1,21 @@
+文件说明：
+
+|           名称            |            功能             |
+| :-----------------------: | :-------------------------: |
+|           img/            |  存放词云背景图、词云图等   |
+|         *****.xml         |    获取的视频弹幕xml文件    |
+|       anhao_dm.txt        |  视频弹幕的txt文件，已分词  |
+|   ChineseStopWords.txt    |           停用词            |
+|       img_covert.py       |    将图片背景转换为白底     |
+| Bilibili_bullet_screen.py | 获取B站视频弹幕，再制作词云 |
+|   wordcloud_resolve.py    |      从已有txt制作词云      |
+
+
+
+**完整文字教程见CSDN**：[感谢地心引力](https://blog.csdn.net/weixin_43764974?spm=1000.2115.3001.5343)
+
+
+
 >Bilibili弹幕获取并生成词云
 
 # chatGPT_based
