@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b77c27e5-12ae-4c49-a2a3-3174bd5ff657" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/DCT_LSB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/err_correct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/Bing_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/Bing_token_ring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/GPT_3.5_Turbo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/GPT_gui_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/Rose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/build/gpt_3_continuous/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/build/gpt_3_continuous/gpt_3_continuous.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/gpt_3_continuous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/gpt_3_continuous.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-1914-00.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-1939-48.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-1947-26.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-2008-40.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-2022-41.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230225-2305-45.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230226-1952-37.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230227-0047-23.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/Chat_20230228-1939-53.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/output/chat 20230225-1857-19.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/single_dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openAI_API/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/charGPT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openAI_API/GPT_3_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/openAI_API/GPT_3_GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openAI_API/gpt_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/openAI_API/gpt_3.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PuOSdOyT44rbEcRvhQjQFOFuqn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/chatGPT_based",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\chatGPT_based\SZcup\Problem_B" />
+      <recent name="D:\chatGPT_based\openAI_API" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="DCT_LSB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/DCT_LSB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="err_correct (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/err_correct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="err_correct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\chatGPT_based\SZcup\Problem_B\err_correct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.DCT_LSB" />
+        <item itemvalue="Python.err_correct (1)" />
+        <item itemvalue="Python.err_correct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b77c27e5-12ae-4c49-a2a3-3174bd5ff657" name="变更" comment="" />
+      <created>1684303500777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684303500777</updated>
+    </task>
+    <servers />
+  </component>
+</project>

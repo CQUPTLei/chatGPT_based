@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <h1>调用gpt-3.5-turbo-16k模型</h1>
+  <p>请输入你想要问模型的问题或命令：</p>
+  <input type="text" id="user-input" size="50">
+  <button id="send-button">发送</button>
+  <p>模型的输出：</p>
+  <div id="model-output" style="border: 1px solid black; width: 500px; height: 300px; overflow: auto;"></div>
+  <script>
+    // 定义一个函数，用于向OpenAI API发送请求
+    function sendRequest(userInput) {
+      // 设置请求的URL和参数
+      var url = "https://api.openai.com/v1/chat/completions";
+      var data = {
+        "model": "gpt-3.5-turbo-16k",
+        "messages": [
+          {"role": "user", "content": userInput}
+        ],
+        // 添加session_id参数，为每个对话创建一个唯一的标识符
+        "session_id": "1234567890",
+        // 添加stop_sequence参数，指定一个终止符
+        "stop_sequence": "\n"
+      };
+      // 设置请求的头部，包括API密钥
+      var headers = {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer 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"
+      };
+      // 使用jQuery的ajax方法发送POST请求，并处理响应
+      $.ajax({
+        url: url,
+        type: "POST",
+        data: JSON.stringify(data),
+        headers: headers,
+        success: function(response) {
+          // 如果请求成功，获取模型的输出，并显示在页面上
+          var modelOutput = response.choices[0].message.content;
+          $("#model-output").append("<p><b>Assistant:</b> " + modelOutput + "</p>");
+        },
+        error: function(error) {
+          // 如果请求失败，显示错误信息
+          $("#model-output").append("<p><b>Error:</b> " + error.responseText + "</p>");
+        }
+      });
+    }
+    // 定义一个函数，用于处理用户点击发送按钮的事件
+    function sendButtonClicked() {
+      // 获取用户输入，并显示在页面上
+      var userInput = $("#user-input").val();
+      $("#model-output").append("<p><b>User:</b> " + userInput + "</p>");
+      // 清空用户输入框
+      $("#user-input").val("");
+      // 调用sendRequest函数，向OpenAI API发送请求
+      sendRequest(userInput);
+    }
+    // 绑定发送按钮的点击事件
+    $("#send-button").click(sendButtonClicked);
+  </script>
+</body>
+</html>

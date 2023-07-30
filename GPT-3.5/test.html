@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat with GPT-3.5-turbo-16k</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        #container {
+            width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: white;
+        }
+
+        #question {
+            width: 80%;
+            height: 30px;
+            font-size: 18px;
+        }
+
+        #submit {
+            width: 15%;
+            height: 35px;
+            font-size: 18px;
+        }
+
+        #dialogue {
+            height: 400px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+        }
+
+        .user {
+            color: blue;
+        }
+
+        .bot {
+            color: green;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        // Define a function to call the openai api
+        function call_openai(question) {
+            // Set the openai api key
+            var api_key = "sk-xxxxxxx";
+
+            // Set the model name
+            var model = "gpt-3.5-turbo-16k";
+
+            // Set the functions to describe to the model
+            var functions = [
+                {
+                    "name": "send_email",
+                    "description": "Send an email to someone",
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "to": {"type": "string"},
+                            "subject": {"type": "string"},
+                            "body": {"type": "string"}
+                        },
+                        "required": ["to", "subject", "body"]
+                    }
+                },
+                {
+                    "name": "get_current_weather",
+                    "description": "Get the current weather for a location",
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "location": {"type": "string"},
+                            "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]}
+                        },
+                        "required": ["location", "unit"]
+                    }
+                }
+                // You can add more functions here
+            ];
+
+            // Set the prompt for the model
+            var prompt = document.getElementById("dialogue").innerText + "\nYou: " + question;
+
+            // Make a post request to the openai chat completions endpoint
+            axios.post("https://api.openai.com/v1/chat/completions", {
+                model: model,
+                messages: [
+                    {role: "user", content: prompt}
+                ],
+                functions: functions
+                // You can also specify a function_call parameter to ask the model to call a specific function
+                // For example, function_call: {name: "send_email"}
+            }, {
+                headers: {
+                    Authorization: `Bearer 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`,
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(function (response) {
+                // If the request is successful, get the output from the response data
+                var output = response.data.output;
+
+                // Check if the output is a JSON object for a function call
+                try {
+                    var json = JSON.parse(output);
+                    if (json.name && json.args) {
+                        // If yes, display the function name and arguments
+                        display_answer("The model wants to call this function:\n" + json.name + "(" + JSON.stringify(json.args) + ")");
+                    } else {
+                        // If not, display the output as it is
+                        display_answer(output);
+                    }
+                } catch (error) {
+                    // If the output is not a JSON object, display the output as it is
+                    display_answer(output);
+                }
+
+            })
+            .catch(function (error) {
+                // If the request fails, display the error message
+                display_answer("Sorry, something went wrong. Please try again later.");
+                console.log(error);
+            });
+        }
+
+        // Define a function to display the user's question
+        function display_question(question) {
+            // Get the dialogue element
+            var dialogue = document.getElementById("dialogue");
+
+            // Create a new paragraph element
+            var p = document.createElement("p");
+
+            // Set the class name and text content of the paragraph element
+            p.className = "user";
+            p.textContent = "You: " + question;
+
+            // Append the paragraph element to the dialogue element
+            dialogue.appendChild(p);
+
+            // Scroll to the bottom of the dialogue element
+            dialogue.scrollTop = dialogue.scrollHeight;
+        }
+
+        // Define a function to display the model's answer
+        function display_answer(answer) {
+            // Get the dialogue element
+            var dialogue = document.getElementById("dialogue");
+
+            // Create a new paragraph element
+            var p = document.createElement("p");
+
+            // Set the class name and text content of the paragraph element
+            p.className = "bot";
+            p.textContent = "GPT-3.5-turbo-16k: " + answer;
+
+            // Append the paragraph element to the dialogue element
+            dialogue.appendChild(p);
+
+            // Scroll to the bottom of the dialogue element
+            dialogue.scrollTop = dialogue.scrollHeight;
+        }
+
+        // Define a function to handle the form submission
+        function submit_form(event) {
+            // Prevent the default behavior of the form submission
+            event.preventDefault();
+
+            // Get the question input element
+            var question = document.getElementById("question");
+
+            // Get the question value
+            var value = question.value;
+
+            // Check if the question value is not empty
+            if (value) {
+                // Display the question value
+                display_question(value);
+
+                // Call the openai api with the question value
+                call_openai(value);
+
+                // Clear the question value
+                question.value = "";
+            }
+        }
+
+        // Get the form element
+        var form = document.getElementById("form");
+
+        // Add an event listener to handle the form submission
+        form.addEventListener("submit", submit_form);
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Chat with GPT-3.5-turbo-16k</h1>
+        <div id="dialogue">
+            <p class="bot">GPT-3.5-turbo-16k: Hello, I am a chat bot powered by gpt-3.5-turbo-16k, a model that can understand and generate natural language or code. I can also call functions based on your input. You can ask me anything or tell me what you want me to do.</p>
+        </div>
+        <form id="form">
+            <input id="question" type="text" placeholder="Type something here..." />
+            <input id="submit" type="submit" value="Send" />
+        </form>
+    </div>
+</body>
+</html>
