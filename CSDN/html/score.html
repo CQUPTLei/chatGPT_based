@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSDN Article Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 18px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#submit").click(function(event){
+                event.preventDefault();
+                var username = $("#username").val();
+                var size = $("#size").val();
+                var url = "https://blog.csdn.net/community/home-api/v1/get-business-list?page=1&size=" + size + "&businessType=blog&orderby=&noMore=false&year=&month=&username=" + username;
+                $.getJSON(url, function(data) {
+                    var articles = data.data.list;
+                    var promises = [];
+                    for (var i = 0; i < articles.length; i++) {
+                        (function(article) {
+                            var promise = $.ajax({
+                                url: "http://localhost:5000/get_score",
+                                type: "POST",
+                                data: JSON.stringify({url: article.url}),
+                                contentType: "application/json; charset=utf-8",
+                                dataType: "json"
+                            }).then(function(data){
+                                return "<tr><td>" + article.title + "</td>" +
+                                       "<td><a href='" + article.url + "'>Link</a></td>" +
+                                       "<td>" + data.score + "</td></tr>";
+                            });
+                            promises.push(promise);
+                        })(articles[i]);
+                    }
+                    $.when.apply($, promises).then(function() {
+                        var html = "<table><tr><th>Title</th><th>URL</th><th>Score</th></tr>";
+                        for (var i = 0; i < arguments.length; i++) {
+                            html += arguments[i];
+                        }
+                        html += "</table>";
+                        $("#result").html(html);
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <form>
+        <label for="username">CSDN ID:</label>
+        <input type="text" id="username" name="username">
+        <label for="size">Article number to query:</label>
+        <input type="text" id="size" name="size">
+        <button id="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
