@@ -13,7 +13,7 @@ class CSDNArticleExporter:
         self.filename = filename
 
     def get_articles(self):
-        url = f"https://blog.csdn.net/community/home-api/v1/get-business-list?page=1&size={self.size}&businessType=blog&orderby=&noMore=false&year=&month=&username={self.username}"
+        url = f"https://blog.csdn.net/community/home-api/v1/get-business-list?page=2&size={self.size}&businessType=blog&orderby=&noMore=false&year=&month=&username={self.username}"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode())
         return data['data']['list']
@@ -85,8 +85,8 @@ class ArticleScores:
 
 if __name__ == '__main__':
     # 获取文章信息
-    exporter = CSDNArticleExporter("weixin_43764974", 100, 'score.xlsx')  # Replace with your username
+    exporter = CSDNArticleExporter("weixin_43764974", 194, 'score1.xlsx')  # Replace with your username
     exporter.export_to_excel()
     # 批量获取质量分
-    score = ArticleScores('score.xlsx')
+    score = ArticleScores('score1.xlsx')
     score.write_scores_to_excel()

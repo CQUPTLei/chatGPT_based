@@ -4,105 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77c27e5-12ae-4c49-a2a3-3174bd5ff657" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/CSDN/Artice_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSDN/get_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSDN/html/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSDN/html/score.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HScupC/pre_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/Img_recover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/Prob_one/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SZcup/Problem_B/Prob_three/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WaterMark/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b77c27e5-12ae-4c49-a2a3-3174bd5ff657" name="变更" comment="data">
+      <change afterPath="$PROJECT_DIR$/HScupC/Q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HScupC/Q1_corr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HScupC/data_preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WiFi/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WiFi/wifi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark.v11.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/DWT.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/DWT.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/HiddenWatermark.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/HiddenWatermark.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/HiddenWatermark.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/HiddenWatermark.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/HiddenWatermark/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/HiddenWatermark-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/Note.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/lena.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/test_1600X800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/test_400X200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/ImageProcess_HiddenWaterMark-master/test_800X400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/NEW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/P.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/falseRate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/genNeedImg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/hn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/hn_gray.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/lena.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/xn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/xn_binary100.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/xn_binary25.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/images/xn_binary50.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/hn_gray_stego100.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/hn_gray_stego25.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/hn_gray_stego50.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/img_extract.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/noisedImg.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/xn_extract100.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/xn_extract25.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img/xn_extract50.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/img4readme/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/keyPos100.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/keyPos25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/keyPos50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/zone100.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/zone25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/keyfile/zone50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/lsbEmbed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/lsbExtract.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/noise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/RG_LSB-master/RG_LSB-master/psnr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/SPP.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/SPP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/SPP1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/diff_img.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/lsb_theoty.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/rule.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/rule1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/watermarked_image.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/watermarked_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/Problem_B/with_stegano.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SZcup/基于DCT的暗水印技术的研究与应用.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openAI_API/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/openAI_API/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSDN/get_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSDN/get_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSDN/html/score.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSDN/html/score.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HScupC/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HScupC/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WaterMark/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/WaterMark/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,39 +47,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/chatGPT_based&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/chatGPT_based/WiFi&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\chatGPT_based\WiFi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\chatGPT_based\SZcup\Problem_B" />
       <recent name="D:\chatGPT_based\openAI_API" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pre_process">
-    <configuration name="embedd_watermark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="chatGPT_based" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three/embedd_watermark.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pre_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="Q1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="chatGPT_based" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +73,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HScupC/pre_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HScupC/Q1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSDN/html" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSDN/html/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_score" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSDN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSDN/get_score.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,6 +125,27 @@
       <method v="2" />
     </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chatGPT_based" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WiFi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WiFi/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="chatGPT_based" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,55 +166,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="chatGPT_based" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="watermark_Arnold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="chatGPT_based" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SZcup/Problem_B/Prob_three/watermark_Arnold.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pre_process" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.embedd_watermark" />
+        <item itemvalue="Python.get_score" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.watermark_Arnold" />
+        <item itemvalue="Python.Q1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +185,25 @@
       <option name="presentableId" value="Default" />
       <updated>1684303500777</updated>
     </task>
+    <task id="LOCAL-00001" summary="data">
+      <created>1691065829305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691065829305</updated>
+    </task>
+    <task id="LOCAL-00002" summary="data">
+      <created>1691065937130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691065937130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="data" />
+    <option name="LAST_COMMIT_MESSAGE" value="data" />
   </component>
 </project>
